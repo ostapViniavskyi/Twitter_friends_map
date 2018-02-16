@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Followers Locator</title>
+</head>
+<body>
+    <style>
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    .holder {
+        width: 312px;
+        margin: auto;
+        marginTop: 30px;
+    }
+    #mapForm * {
+        border-radius: 4px;
+        background: #FFF;
+        border: 2px solid #7d93a7;
+        padding: 2px;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+    .name {
+        padding: 3px;
+        font-size: 40px;
+        color: #2300f2;
+        z-index: 1000;
+    }
+    .holderText {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #444;
+    }
+    #button{
+        background-color: #2300f2;
+        border: 2px solid #2300f2;
+        color: white;
+    }
+</style>
+
+<div class="holder">
+    <div class="name">Twitter Map</div>
+    <div class="holderText">This website displays on the map location of people that are followed by specified person on
+        <span style="color: #1da1f2; text-decoration: underline;">Twitter</span>.
+    <ul>
+        <li><u>account</u> - twitter username</li>
+    </ul>
+    </div>
+    <form name="map" id="mapForm" method="post" action="{{ url_for('create_map') }}">
+        <input type="text" name="name" placeholder="Account name">
+        <br>
+        <input type="submit" name="submit" id="button" value="Створити карту">
+    </form>
+    <div class="holderText">
+        Be patient. It may take a while to find friends!!!
+    </div>
+</div>
+</body>
+</html>

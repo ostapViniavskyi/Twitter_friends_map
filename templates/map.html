@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_a6579dcb37874d03bc2b1897c711f712 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a6579dcb37874d03bc2b1897c711f712" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_a6579dcb37874d03bc2b1897c711f712 = L.map(
+                                  'map_a6579dcb37874d03bc2b1897c711f712',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_7081bdaa5e0e4ea28fb194891dbf2978 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_a6579dcb37874d03bc2b1897c711f712);
+        
+    
+            var feature_group_5c4e8c7d3fe141819996b83f95448b02 = L.featureGroup(
+                ).addTo(map_a6579dcb37874d03bc2b1897c711f712);
+        
+    
+
+            var marker_0537ea79c3a9471fa3aca568fbc4ff51 = L.marker(
+                [50.00419000000005,36.23577000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_e1c04cef0e2e421d996c87ab1d3a84f7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0537ea79c3a9471fa3aca568fbc4ff51.setIcon(icon_e1c04cef0e2e421d996c87ab1d3a84f7);
+            
+    
+            var popup_81b6d49587124951a7bfd0e82777eea6 = L.popup({maxWidth: '300'});
+
+            
+                var html_5401244d8edd4c51bd1fb837a5984e99 = $('<div id="html_5401244d8edd4c51bd1fb837a5984e99" style="width: 100.0%; height: 100.0%;"><div><ul><li>Gleb Lipatnikov</li></ul></div></div>')[0];
+                popup_81b6d49587124951a7bfd0e82777eea6.setContent(html_5401244d8edd4c51bd1fb837a5984e99);
+            
+
+            marker_0537ea79c3a9471fa3aca568fbc4ff51.bindPopup(popup_81b6d49587124951a7bfd0e82777eea6);
+
+            
+        
+    
+
+            var marker_2cb03acf9e5a4daa9b1278bdce299597 = L.marker(
+                [44.43429000000003,26.10298000000006],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_c76f615e14114819b7f49c7f10259e36 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2cb03acf9e5a4daa9b1278bdce299597.setIcon(icon_c76f615e14114819b7f49c7f10259e36);
+            
+    
+            var popup_8452811030c04fdfa04a0c38a58cd162 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c368a10aa7a4e38b1fa6509fe702811 = $('<div id="html_6c368a10aa7a4e38b1fa6509fe702811" style="width: 100.0%; height: 100.0%;"><div><ul><li>Aliwi Omar</li></ul></div></div>')[0];
+                popup_8452811030c04fdfa04a0c38a58cd162.setContent(html_6c368a10aa7a4e38b1fa6509fe702811);
+            
+
+            marker_2cb03acf9e5a4daa9b1278bdce299597.bindPopup(popup_8452811030c04fdfa04a0c38a58cd162);
+
+            
+        
+    
+
+            var marker_23c16dc5fbeb4b37962ead33bc9aecae = L.marker(
+                [50.45056000000005,30.524280000000033],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_66059a2b310e4801a434e917870851d2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23c16dc5fbeb4b37962ead33bc9aecae.setIcon(icon_66059a2b310e4801a434e917870851d2);
+            
+    
+            var popup_cb3b405af6bf47a39fc237d97a127247 = L.popup({maxWidth: '300'});
+
+            
+                var html_05a0d9f65c1c4edface1c966775e72e9 = $('<div id="html_05a0d9f65c1c4edface1c966775e72e9" style="width: 100.0%; height: 100.0%;"><div><ul><li>Olexandr dashkevych</li></ul></div></div>')[0];
+                popup_cb3b405af6bf47a39fc237d97a127247.setContent(html_05a0d9f65c1c4edface1c966775e72e9);
+            
+
+            marker_23c16dc5fbeb4b37962ead33bc9aecae.bindPopup(popup_cb3b405af6bf47a39fc237d97a127247);
+
+            
+        
+    
+
+            var marker_61e4904ca4ce4bb19d4307f05a83de0f = L.marker(
+                [50.45056000000005,30.524280000000033],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_587b16680c844ac0924a5618d802aa72 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61e4904ca4ce4bb19d4307f05a83de0f.setIcon(icon_587b16680c844ac0924a5618d802aa72);
+            
+    
+            var popup_b8aabec17e0041f981e6082fba3f4c2d = L.popup({maxWidth: '300'});
+
+            
+                var html_ef3c9620f5d2486ea27d368b85ddae28 = $('<div id="html_ef3c9620f5d2486ea27d368b85ddae28" style="width: 100.0%; height: 100.0%;"><div><ul><li>Vitalii Volochai</li></ul></div></div>')[0];
+                popup_b8aabec17e0041f981e6082fba3f4c2d.setContent(html_ef3c9620f5d2486ea27d368b85ddae28);
+            
+
+            marker_61e4904ca4ce4bb19d4307f05a83de0f.bindPopup(popup_b8aabec17e0041f981e6082fba3f4c2d);
+
+            
+        
+    
+
+            var marker_0b034ad76f1148388aaea00c90d1a51d = L.marker(
+                [37.777120000000025,-122.41963999999996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_a942392037724d729293ef1eb1cd1db8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0b034ad76f1148388aaea00c90d1a51d.setIcon(icon_a942392037724d729293ef1eb1cd1db8);
+            
+    
+            var popup_dcb622813b874fc2850404efd20beecd = L.popup({maxWidth: '300'});
+
+            
+                var html_6d6ff9c1b2324309ab3d0531b2fad775 = $('<div id="html_6d6ff9c1b2324309ab3d0531b2fad775" style="width: 100.0%; height: 100.0%;"><div><ul><li>GitHub</li></ul></div></div>')[0];
+                popup_dcb622813b874fc2850404efd20beecd.setContent(html_6d6ff9c1b2324309ab3d0531b2fad775);
+            
+
+            marker_0b034ad76f1148388aaea00c90d1a51d.bindPopup(popup_dcb622813b874fc2850404efd20beecd);
+
+            
+        
+    
+
+            var marker_4fd5549ef49a4c9ca1ff1eb4697f1be6 = L.marker(
+                [55.75696000000005,37.61501000000004],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_30e2b083f4da43fdab7d2f8e3f5c133c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4fd5549ef49a4c9ca1ff1eb4697f1be6.setIcon(icon_30e2b083f4da43fdab7d2f8e3f5c133c);
+            
+    
+            var popup_1286717e23544686adb49e75121eab8d = L.popup({maxWidth: '300'});
+
+            
+                var html_80bc945eeead4a6ba53d956af60d431b = $('<div id="html_80bc945eeead4a6ba53d956af60d431b" style="width: 100.0%; height: 100.0%;"><div><ul><li>Ilya Ilyuk</li></ul></div></div>')[0];
+                popup_1286717e23544686adb49e75121eab8d.setContent(html_80bc945eeead4a6ba53d956af60d431b);
+            
+
+            marker_4fd5549ef49a4c9ca1ff1eb4697f1be6.bindPopup(popup_1286717e23544686adb49e75121eab8d);
+
+            
+        
+    
+
+            var marker_0546ae88954146e19b8cc06c2a0b94f9 = L.marker(
+                [49.84441000000004,24.02543000000003],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_35ce7ab4c29e4e81b06229ddf76a080f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0546ae88954146e19b8cc06c2a0b94f9.setIcon(icon_35ce7ab4c29e4e81b06229ddf76a080f);
+            
+    
+            var popup_a07c6f4d837b4d23b323df9dae81793e = L.popup({maxWidth: '300'});
+
+            
+                var html_195aadfe2c20417391e50ce9fc45f45f = $('<div id="html_195aadfe2c20417391e50ce9fc45f45f" style="width: 100.0%; height: 100.0%;"><div><ul><li>Danil Ishutin</li></ul></div></div>')[0];
+                popup_a07c6f4d837b4d23b323df9dae81793e.setContent(html_195aadfe2c20417391e50ce9fc45f45f);
+            
+
+            marker_0546ae88954146e19b8cc06c2a0b94f9.bindPopup(popup_a07c6f4d837b4d23b323df9dae81793e);
+
+            
+        
+    
+
+            var marker_8163db5ccc684817915c3a16793313f5 = L.marker(
+                [49.260380000000055,-123.11335999999994],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_5c4e8c7d3fe141819996b83f95448b02);
+            
+    
+
+                var icon_2bfedefd2b244622a2fb8576f8536826 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8163db5ccc684817915c3a16793313f5.setIcon(icon_2bfedefd2b244622a2fb8576f8536826);
+            
+    
+            var popup_2ba9e2bc9f7544b6addd38b38c8d7f6d = L.popup({maxWidth: '300'});
+
+            
+                var html_0cf3ea442a2f4b7a91c8e846cfc5decb = $('<div id="html_0cf3ea442a2f4b7a91c8e846cfc5decb" style="width: 100.0%; height: 100.0%;"><div><ul><li>Artour Babaev</li></ul></div></div>')[0];
+                popup_2ba9e2bc9f7544b6addd38b38c8d7f6d.setContent(html_0cf3ea442a2f4b7a91c8e846cfc5decb);
+            
+
+            marker_8163db5ccc684817915c3a16793313f5.bindPopup(popup_2ba9e2bc9f7544b6addd38b38c8d7f6d);
+
+            
+        
+</script>
